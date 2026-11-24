@@ -28,7 +28,7 @@ jobs:
           cache: true
 
       - name: Generate Android Native Platform Files
-        run: flutter create . --platforms=android --org=com.tabibelgheit
+        run: flutter create . --platforms=android --org=com.tabibelgheit --project-name=tabib_el_gheit
 
       - name: Install Dependencies
         run: flutter pub get
